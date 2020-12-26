@@ -15,13 +15,13 @@ See: http://wiki.ros.org/ROS/Tutorials/BuildingPackages
 
 Configure i2c device number in: config/i2c_driver.yaml (e.g. /dev/i2c-1)
 
-## Exported messages Panasonic GridEye
+## Exported messages Panasonic GridEye (GridEyeSensorMsg.msg)
 - float64 thermistor
 - float64[64] data 
 
 GridEye is sampled 1/s and data field (std::vector<double>) always contains 64 values ​​(8x8). Thermistor value is stored too.
 
-## Exported messages MPU-6000
+## Exported messages MPU-6000 (AccGyroSensorMsg.msg)
 float64[10] - dataAccX  
 float64[10] - dataAccY  
 float64[10] - dataAccZ  
