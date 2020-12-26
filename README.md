@@ -22,12 +22,12 @@ Configure i2c device number in: config/i2c_driver.yaml (e.g. /dev/i2c-1)
 GridEye is sampled 1/s and data field (std::vector<double>) always contains 64 values ​​(8x8). Thermistor value is stored too.
 
 ## Exported messages MPU-6000
-float64[10] - dataAccX
-float64[10] - dataAccY
-float64[10] - dataAccZ
-float64[10] - dataGyroX
-float64[10] - dataGyroY
-float64[10] - dataGyroZ
+float64[10] - dataAccX  
+float64[10] - dataAccY  
+float64[10] - dataAccZ  
+float64[10] - dataGyroX  
+float64[10] - dataGyroY  
+float64[10] - dataGyroZ  
 
 The MPU-6000 contains a FIFO, 10 samples is collected every second for each of the X, Y and Z axes (total 60
 values = 30 acc + 30 gyro)
