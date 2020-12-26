@@ -36,5 +36,5 @@ values = 30 acc + 30 gyro)
 
 ## Note
 
-!! NOTE: add selected user to <b>i2c group</b> [to run driver without root permission] !!!
+!! NOTE: add selected user to <b>i2c group</b> [to run driver without root permission] !!!  
 e.g. sudo adduser odroid i2c
