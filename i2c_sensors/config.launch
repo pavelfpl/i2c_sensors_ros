@@ -1,0 +1,10 @@
+<launch>
+
+<!-- I2C Driver Node -->
+<node name="i2c_sensors" pkg="i2c_sensors" type="i2c_sensors_node" output="screen" >
+
+<rosparam param="i2c_driver_param_file_path" subst_value="true">[$(find i2c_sensors)/config/i2c_driver.yaml]</rosparam>
+  
+</node>
+
+</launch>

@@ -1,0 +1,8 @@
+<launch>
+
+<!-- I2C Driver Node -->
+<node name="sensors_consumer" pkg="sensors_consumer" type="sensors_consumer_node" output="screen" >
+
+</node>
+
+</launch>
