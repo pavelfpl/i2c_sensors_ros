@@ -1,6 +1,4 @@
 # i2c_sensors_ros 
-
-# i2c_sensors_ros 
 This repo contains user space drivers for **Catkin ROS** (Robot Operating System) including:
 - `Panasonic GridEye AMG8833 Infrared Array Sensor 8x8 driver`
 - `MPU-6000 3-Axis Gyroscope/Accelerometer driver`
